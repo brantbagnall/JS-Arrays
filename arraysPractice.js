@@ -42,9 +42,8 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
   //Code Here
   function reversedLooper (letters) {
-    for (var i = 0; i < letters.length; i++) {
-      alert(letters.pop());
-      letters.pop();
+    for (var i = letters.length - 1; i >= 0; i--) {
+      alert(letters[i]);
     }
   }
 
